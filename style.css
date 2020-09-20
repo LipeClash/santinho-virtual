@@ -3,6 +3,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: darkgrey;
+    
 }
 
 img {
@@ -10,7 +12,9 @@ img {
     max-width: 100%;
 }
 
-#foto {}
+#foto {
+    background-image: linear-gradient(to bottom, yellow 0%, green 100%);
+}
 
 #santinho {
     height: 600px;
@@ -21,16 +25,53 @@ img {
 }
 
 h1 {
+    background-position: bottom;
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
+    text-align: center;
+    color: yellow;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px 0 blue;
+    
 }
 
-#cargo {}
+#cargo {
+    font-size: 8mm;
+    font-family: 'Mukta';
+    color: #68e221e5;
+    text-shadow: 1px 1px 0 #087048be;
+    text-decoration: underline;
+    background-position: left;
+    position: absolute;
+    
+    top: 130px;
+    transform: rotate(-27deg);
+    
+}
 
-#slogan {}
+#slogan {
+    background-image: linear-gradient(to bottom, yellow 0%, green 100%);
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
 
-#final {}
+#final {
+    background-color: green;
+    font-size: 50px;
+    display: flex; height: 50px; justify-content: space-around; align-items: center;
+    font-weight: bold;
+}
 
-#numero {}
+#numero {
+    color: yellow;
+    text-shadow: 2px 2px 0 blue;
+}
 
-#partido {}
+#partido {
+    color: yellow;
+    text-shadow: 2px 2px 0 blue;
+}
